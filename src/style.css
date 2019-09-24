@@ -1,0 +1,56 @@
+h1, p {
+  font-family: Lato;
+}
+
+.fa-chevron-right, .fa-chevron-left {
+  cursor: pointer;
+}
+
+* {
+  outline:none;
+}
+
+/* ::-webkit-scrollbar {
+display: none;
+} */
+
+.numbtn {
+  border-radius: 100px;
+  margin-right: 10px; 
+
+  border : 2px solid grey;
+  /* box-shadow:  3px 3px 5px 6px #ccc; */
+  color: black;
+  background-color: white;
+}
+
+#btnselected {
+    border-radius: 100px;
+  margin-right: 10px; 
+
+  border : 2px solid grey;
+  /* box-shadow:  3px 3px 5px 6px #ccc; */
+  color: black;
+  background-color: white;
+  background-color: grey;
+}
+.numbtn:focus {
+  outline: none;
+}
+
+.numcont {
+  margin-top : 10px;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+
+.fullh {
+  height: 90vh;
+}
+
+.fullh1 {
+  height: 30vh;
+}
